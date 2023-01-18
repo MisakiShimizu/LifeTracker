@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import welcomeImg from "./style/assets/Capture.PNG";
+import WelcomeForm from "./components/WelcomeForm.js";
+import "./style/sass/style.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="wrapper welcomeOuter">
+        <div className="openDiagram">
+          <img src={welcomeImg} alt="" className="welcomeImg" />
+        </div>
+        <div className="welcomeContainer">
+          <h2>welcome to</h2>
+          <h1>Life Tracker</h1>
+          <WelcomeForm />
+        </div>
+      </div>
     </div>
   );
 }

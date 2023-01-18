@@ -1,0 +1,23 @@
+html {
+    font-family: $mainFont;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: $titleFont;
+    font-weight: 100;
+    font-size: 6rem;
+    border-bottom: solid 2px #FFE5D9;
+
+    &:hover {
+        border-bottom: solid 4px #FFE5D9;
+    }
+}
+
+h2 {
+    font-weight: 300;
+}
+
+legend {
+    font-size: 1.5rem;
+}
