@@ -9,15 +9,21 @@ h1 {
     font-size: 6rem;
     border-bottom: solid 2px #FFE5D9;
 
-    &:hover {
-        border-bottom: solid 4px #FFE5D9;
-    }
+    // &:hover {
+    //     border-bottom: solid 4px #FFE5D9;
+    // }
 }
 
 h2 {
     font-weight: 300;
 }
-
-legend {
+.welcomeTabContainer li {
     font-size: 1.5rem;
+}
+.tabContentContainer h3 {
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+.signContainer input {
+    font-size: 1rem;
 }

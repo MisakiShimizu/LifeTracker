@@ -10,34 +10,59 @@
 .welcomeImg {
     width: 100%;
 }
-.welcomeContainer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 50%;
-    align-self: center;
-    padding: 70px;
+.welcomeTab{
+    margin: 3rem;
+    width: 80%;
 }
-.welcomeForm legend {
-    margin-top: 30px;
+.welcomeTabContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+}
+.welcomeTabContainer button {
+    border: none;
+    background-color: transparent;
+}
+.tabActive {
+    text-decoration: underline;
+    border-bottom: solid 2px #3A3B3C;
+}
+// .welcomeActive {
+//     text-decoration: underline;
+// }
+// .welcomeContainer {
+//     display: flex;
+//     flex-direction: column;
+//     text-align: center;
+//     width: 50%;
+//     align-self: center;
+//     padding: 70px;
+// }
+// .welcomeForm legend {
+//     margin-top: 30px;
+// }
+.signContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .buttonContainer {
     display: flex;
     align-items: center;
     margin-top: 30px;
 }
-.welcomeForm input {
+.signContainer input {
     border: none;
     background-color: #FFE5D9 ;
     width: 80%;
+    margin: 2px;
     height: 30px;
     border-radius: 20px;
     padding: 10px 10px 10px 20px;
 }
-.buttonContainer button {
+.signContainer button {
     border: none;
     background-color: #F5F5F5;
-    margin-left: 25px;
     padding-top: 10px;
     font-size: 2.5rem;
 }
